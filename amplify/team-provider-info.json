@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kchat-staging-90346-authRole",
+      "UnauthRoleArn": "arn:aws:iam::090764050060:role/amplify-kchat-staging-90346-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::090764050060:role/amplify-kchat-staging-90346-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-kchat-staging-90346-deployment",
+      "UnauthRoleName": "amplify-kchat-staging-90346-unauthRole",
+      "StackName": "amplify-kchat-staging-90346",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:090764050060:stack/amplify-kchat-staging-90346/1fc0a9e0-3897-11ec-8509-0acd81b1abbf",
+      "AmplifyAppId": "dlmg8bppzidbj",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-kchat-staging-90346-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "Kchat": {}
+      },
+      "function": {
+        "KchatPostConfirmation": {
+          "deploymentBucketName": "amplify-kchat-staging-90346-deployment",
+          "s3Key": "amplify-builds/KchatPostConfirmation-6b775531534f57365276-build.zip"
+        }
+      }
+    }
+  }
+}
