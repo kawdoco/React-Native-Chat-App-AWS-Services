@@ -73,10 +73,10 @@ const HomeHeader = (props) => {
       alignItems: 'center',
     }}>
       <Image 
-        source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg'}}
+        source={{ uri: 'http://www.susara.lk/images/flower.jpg'}}
         style={{ width: 30, height: 30, borderRadius: 30}}
       />
-      <Text style={{flex: 1, textAlign: 'center', marginLeft: 50, fontWeight: 'bold'}}>Signal</Text>
+      <Text style={{flex: 1, textAlign: 'center', marginLeft: 50, fontWeight: 'bold'}}>KznChat</Text>
       <Feather name="camera" size={24} color="black" style={{ marginHorizontal: 10}} />
       <Pressable onPress={() => navigation.navigate('UsersScreen')}>
         <Feather name="edit-2" size={24} color="black" style={{ marginHorizontal: 10}} />
@@ -99,7 +99,7 @@ const ChatRoomHeader = (props) => {
       alignItems: 'center',
     }}>
       <Image 
-        source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg'}}
+        source={{ uri: 'http://www.susara.lk/images/flower.jpg'}}
         style={{ width: 30, height: 30, borderRadius: 30}}
       />
       <Text style={{flex: 1, marginLeft: 10, fontWeight: 'bold'}}>{props.children}</Text>
